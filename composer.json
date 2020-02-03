@@ -52,7 +52,6 @@
     "bower-asset/bootstrap-offcanvas": "^2.5",
     "oomphinc/composer-installers-extender": "^1.1",
     "composer/installers": "^1.2",
-    "drupal-composer/drupal-scaffold": "^2.2",
     "cweagans/composer-patches": "~1.6",
     "phayes/geophp": "dev-master",
     "anthonymartin/geo-location": "^1.0",
@@ -101,14 +100,6 @@
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "scripts": {
-    "post-install-cmd": [
-      "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
-    ],
-    "post-update-cmd": [
-      "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
-    ]
-  },
   "extra": {
     "installer-types": [
       "bower-asset",
